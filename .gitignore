@@ -1,0 +1,47 @@
+# Build & Dependencies
+.gradle/
+build/
+*/build/
+app/build/
+ios/build/
+DerivedData/
+
+# IDE & Tooling
+.idea/
+*.iml
+.vscode/
+.externalNativeBuild/
+.cxx/
+captures/
+
+# Xcode & Apple
+*.xcuserdata/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.hmap
+
+# Sensitive & Local Configuration
+local.properties
+*.keystore
+*.jks
+google-services.json
+GoogleService-Info.plist
+
+# Compiled Packages & Binaries
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# System & Temp
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://rork.com/schema/rork.json",
+  "apps": [
+    {
+      "name": "EPA608",
+      "path": "ios",
+      "framework": "swift",
+      "settings": {
+        "swiftSibling": false
+      }
+    },
+    {
+      "name": "EPA608 Android",
+      "path": "android",
+      "framework": "kotlin"
+    }
+  ]
+}

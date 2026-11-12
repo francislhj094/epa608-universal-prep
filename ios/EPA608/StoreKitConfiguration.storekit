@@ -1,0 +1,97 @@
+{
+  "identifier" : "EPA608StoreKitConfig",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "59.99",
+      "familyShareable" : true,
+      "internalID" : "1001",
+      "localizations" : [
+        {
+          "description" : "Universal Lifetime Unlock & 100% Pass Guarantee",
+          "displayName" : "EPA 608 Universal Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.epa608.hvac.lifetime",
+      "referenceName" : "EPA 608 Lifetime License",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "2001",
+      "localizations" : [
+
+      ],
+      "name" : "EPA 608 Exam Subscriptions",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "19.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "2002",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly Full Access to 2027 Question Banks",
+              "displayName" : "Monthly Pass",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.epa608.hvac.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "EPA 608 Monthly",
+          "subscriptionGroupID" : "2001",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "49.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "2003",
+          "introductoryOffer" : {
+            "internalID" : "3001",
+            "paymentMode" : "freeTrial",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Annual Full Access with 3-Day Free Trial",
+              "displayName" : "Annual Pass",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.epa608.hvac.annual",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "EPA 608 Annual",
+          "subscriptionGroupID" : "2001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
